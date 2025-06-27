@@ -13,6 +13,8 @@
     "@types/react": "19.1.6",
     "@types/react-dom": "19.1.5",
     "autoprefixer": "^10.4.21",
+    "cls": "^0.1.5",
+    "clsx": "^2.1.1",
     "eslint": "9.28.0",
     "eslint-config-next": "15.3.3",
     "framer-motion": "^12.18.1",
@@ -21,6 +23,7 @@
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-icons": "^5.5.0",
+    "react-intersection-observer": "^9.16.0",
     "typescript": "5.8.3"
   },
   "devDependencies": {
