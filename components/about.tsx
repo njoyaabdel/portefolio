@@ -82,13 +82,13 @@ export default function About() {
       </p>
 
       <p>
-        I'm currently building{" "}
+        I &apo;sm currently building{" "}
         <span className="font-medium">Dape</span>, a digital real estate
         management and booking platform aimed at bringing transparency and
         reliability to property search and rental. I also integrate{" "}
         <span className="font-medium">AI tools</span> (ChatGPT, Gemini, Hugging
         Face) into my daily workflow to boost productivity.{" "}
-        <span className="italic">When I'm not coding</span>, I enjoy exploring
+        <span className="italic">When I&apos;m not coding</span>, I enjoy exploring
         new technologies and deepening my knowledge of{" "}
         <span className="font-medium">software architecture</span> and{" "}
         <span className="font-medium">system design</span>.
