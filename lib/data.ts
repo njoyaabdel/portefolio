@@ -1,107 +1,107 @@
+
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import landing from "@/public/landing.png";
+import lab from "@/public/lab.png";
+import disciplinary from "@/public/disciplinary.png";
+import koalizz from "@/public/koalizz.png";
 
 export const links = [
-  {
-    name: "Home",
-    hash: "#home",
-  },
-  {
-    name: "About",
-    hash: "#about",
-  },
-  {
-    name: "Projects",
-    hash: "#projects",
-  },
-  {
-    name: "Skills",
-    hash: "#skills",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
-  {
-    name: "Contact",
-    hash: "#contact",
-  },
+  { name: "Home", hash: "#home" },
+  { name: "About", hash: "#about" },
+  { name: "Projects", hash: "#projects" },
+  { name: "Skills", hash: "#skills" },
+  { name: "Experience", hash: "#experience" },
+  { name: "Contact", hash: "#contact" },
 ] as const;
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "BTS in Information Systems Management",
+    location: "IUSTE, Yaoundé, Cameroon",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Training in information systems management, acquiring fundamentals of software development and databases.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Bachelor's in Software Engineering & Databases",
+    location: "IUSTE, Yaoundé, Cameroon",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Deep dive into software architecture, database design, SOLID principles and development of robust applications.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024",
+  },
+  {
+    title: "Fullstack Developer Intern",
+    location: "KEVMAX SARL, Yaoundé, Cameroon",
+    description:
+      "Bug analysis and fixing on existing projects, improvement proposals, and backend development of a client portfolio management tool. First hands-on experience with React.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Feb. 2023 - Jun. 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Backend Developer Python / JavaScript",
+    location: "KEVMAX SARL, Yaoundé, Cameroon",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Design and deployment of robust REST APIs (real estate, healthcare, management), advanced auth systems, WebSocket, AI integration (ChatGPT, Gemini), payment solutions (NotchPay, Braintree), CI/CD pipelines and intern mentoring.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Jun. 2023 - Jun. 2025",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Dape",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Digital real estate management and booking platform. Aims to structure and secure the property search, visit and reservation process, solving the lack of reliability in listings and agent-client interactions.",
+    tags: ["FastAPI", "PostgreSQL", "Next.js", "React", "Docker"],
+    imageUrl: landing,
   },
   {
-    title: "rmtDev",
+    title: "LabX Patient",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Patient management system built at KEVMAX. Handles medical records, patient tracking and business features tailored to the healthcare sector.",
+    tags: ["FastAPI", "PostgreSQL", "React", "Redis", "Docker"],
+    imageUrl: lab,
   },
   {
-    title: "Word Analytics",
+    title: "Koalizz",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "French digital solution designed to simplify communication and management within early childhood structures, such as micro-nurseries.",
+    tags: ["FastAPI", "Redis", "PostgreSQL", "Next.js"],
+    imageUrl: koalizz,
+  },
+  {
+    title: "Disciplinary Action Tracker",
+    description:
+      "The application serves as the official memory. It replaces scattered Excel files or paper records with a single database where every incident is logged..",
+    tags: ["FastAPI", "PostgreSQL", "Next.js"],
+    imageUrl: disciplinary,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
+  "Python",
+  "FastAPI",
+  "Django",
+  "PostgreSQL",
+  "SQLAlchemy",
+  "Redis",
+  "RabbitMQ",
+  "Docker",
   "React",
   "Next.js",
-  "Node.js",
-  "Git",
+  "TypeScript",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "JavaScript",
+  "GitHub Actions",
+  "GitLab CI",
+  "AWS",
+  "WebSocket",
+  "Git",
+  "DDD",
+  "Clean Architecture",
 ] as const;
